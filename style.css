@@ -1,0 +1,97 @@
+body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e0e8ff;
+    font-weight: 500;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: #fff;
+    width: 35%;
+}
+
+.content {
+    text-align: center;
+    padding: 8% 10%;
+}
+
+h1 {
+    color: #1F2F56;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+p {
+    color: #7280A7;
+    font-size: 16px;
+}
+
+h3 {
+    font-weight: 900;
+    color: #1F2F56;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+a {
+    color: #3829E0;
+}
+
+a:hover {
+    color: #7469e9;
+}
+
+.flex-box {
+    color: #7280A7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10%;
+    background-color: #f8f9fe;
+    border-radius: 15px;
+    padding: 5%;
+}
+
+.payment {
+    background-color: #3829E0;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    padding: 5%;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+
+.payment:hover {
+    background-color: #7469e9;
+}
+
+.cancel {
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: #7280A7;
+    font-weight: 700;
+    background-color: #fff;
+}
+
+.cancel:hover {
+    color: #1F2F56;
+}
